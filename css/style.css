@@ -83,6 +83,7 @@ header {
 }
 
 article {
+  width: 100%;
   display: inline-block;
   text-align: center;
   margin-top: 0;
@@ -98,7 +99,6 @@ article {
 .project-image {
   margin-top: 1vh;
   width: 100%;
-  box-shadow: 1vh 1vw 0.5vh #f4f6f9;
 }
 
 article a {
@@ -160,7 +160,7 @@ footer p {
     margin-top: 1vh;
     height: calc(100%/1.7);
     max-width: 100%;
-    box-shadow: 1vh 1vw 0.5vh #e8eff9;
+    box-shadow: 1vh 1vw 0.5vh #f4f6f9;
   }
 
   article a {
