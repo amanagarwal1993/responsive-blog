@@ -1,7 +1,7 @@
 html, body {
   width: 100%;
   margin: 0;
-  font-size: 4vw;
+  font-size: 4.5vw;
 }
 
 #container {
@@ -82,6 +82,10 @@ header {
   width: 100%;
 }
 
+#featured h3 {
+  font-size: 0.9em;
+}
+
 article {
   width: 100%;
   display: inline-block;
@@ -91,8 +95,8 @@ article {
 }
 
 .project-title {
-  font-size: 1.2em;
-  margin-bottom: -0.5vh;
+  font-size: 0.9em;
+  margin-bottom: -1vh;
   margin-top: 1vh;
 }
 
@@ -102,7 +106,7 @@ article {
 }
 
 article a {
-  font-size: 0.9em;
+  font-size: 0.6em;
   text-decoration: none;
   color: #2d3c49;
 }
@@ -130,14 +134,15 @@ footer p {
   text-align: center;
 }
 
-#contact a {
+.link {
   flex-flow: 1;
-  margin-top: auto;
-  margin-right: 3vh;
+  margin: auto;
   text-decoration: none;
 }
 
-
+#github, #linkedin {
+  margin-right: 2vw;
+}
 
 @media screen and (min-width: 567px) {
   #portfolio {
@@ -148,11 +153,13 @@ footer p {
   article {
     flex-grow: 1;
     max-width: 50%;
+    text-align: center;
+    margin-bottom: auto;
   }
 
   .project-title {
-    font-size: 0.9em;
-    margin-bottom: -0.5vh;
+    font-size: 0.6em;
+    margin-bottom: -0.9vh;
     margin-top: 1vh;
   }
 
@@ -164,9 +171,13 @@ footer p {
   }
 
   article a {
-    font-size: 0.6em;
+    font-size: 0.5em;
     text-decoration: none;
     color: #2d3c49;
+  }
+  
+  footer {
+    font-size: 0.6em;
   }
 }
 
@@ -175,10 +186,15 @@ footer p {
     margin-left: auto;
     margin-right: auto;
   }
+  
+  #featured h3 {
+    font-size: 0.7em;
+  }
 
   article {
     max-width: 30%;
     margin-right: 5%;
+    margin-bottom: 3vh;
   }
 
   article:last-of-type {
@@ -186,18 +202,17 @@ footer p {
   }
 
   .project-title {
-    font-size: 0.7em;
-    margin-bottom: -0.75vh;
+    font-size: 0.5em;
     margin-top: 1vh;
   }
 
   article a {
-    font-size: 0.45em;
+    font-size: 0.4em;
     text-decoration: none;
     color: #2d3c49;
   }
 
   footer {
-    font-size: 0.8em;
+    font-size: 0.4em;
   }
 }
